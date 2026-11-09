@@ -21,8 +21,15 @@
 - Severity: High, because it error 500 but no message so customer will be confused
 ## Part A
 - Step A4, status codes when the other user reads, changes and deletes:
+    - 404
+    - 400
+    - 400
 ## Part B
 1.
 2.
 3.
-4. 5. 6. 7. 8.
+4. 
+5. 
+6. 
+7. 
+8.
