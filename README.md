@@ -1,4 +1,34 @@
-# api-lab
+# API Lab
+
+## Install
+
+macOS and Linux:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Windows PowerShell:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+## Run the tests
+
+```bash
+pytest -v
+```
+
+To save an HTML report:
+
+```bash
+pytest -v --html=report.html --self-contained-html
+```
 
 ## Input domain model for POST /api/ratings
 
